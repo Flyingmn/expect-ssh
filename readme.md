@@ -5,9 +5,9 @@
 自动获取短信登录阿里云ssh
 
 TODO: 
-1、使用Mac接收信息
-2、Mac设置csrutil disable
-3、下载脚本 设置执行权限 修改配置
+1、使用Mac接收信息 
+2、Mac设置csrutil disable 
+3、下载脚本 设置执行权限 修改配置 
 
 ## Table of Contents
 
