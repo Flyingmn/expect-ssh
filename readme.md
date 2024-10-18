@@ -20,6 +20,13 @@ TODO:
 ## Install
 
 ```
+// mac:
+brew install expect
+// ubuntu:
+sudo apt install expect
+// centos:
+yum install expect
+
 git clone https://github.com/Flyingmn/expect-ssh.git
 ```
 
