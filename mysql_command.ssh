@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+
+set passwd "pwd"
+set host "host"
+set port 6379
+
+spawn redis-cli -h $host -p $port
+sleep 1
+expect "*:$port>"
+send "auth $passwd\r"
+
+
+interact
