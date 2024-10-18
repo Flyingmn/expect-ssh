@@ -26,6 +26,8 @@ yum install expect
 
 # redis_command.sh: 登陆Redis
 
+# clickhouse_command.sh: 登陆ClickHouse
+
 # ali-msg-code.sh: 自动获取短信登录阿里云ssh， 此脚本需要一些额外操作
 # 0、需要一台iPhone，一台Mac  
 # 1、iPhone开启Mac接收信息  
