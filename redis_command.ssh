@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+
+set passwd "pwd"
+set host "host"
+set port 6379
+
+set timeout 20
+set currentDate [exec date +%Y-%m-%d]
+set currenttime [exec date +%H%M%S]
+
+spawn redis-cli -h $host -p $port
+sleep 1
+expect "*:$port>"
+send "auth $passwd\r"
+expect eof
+
+interact
