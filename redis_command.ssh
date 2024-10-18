@@ -1,6 +1,8 @@
 #!/usr/bin/expect
 
-set passwd "pw\$d" #特殊字符\转义
+puts "特殊字符反斜杠转义"
+
+set passwd "pw\$d"
 set host "host"
 set port 6379
 
