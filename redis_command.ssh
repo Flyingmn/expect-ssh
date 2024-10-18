@@ -1,8 +1,10 @@
 #!/usr/bin/expect
 
-set passwd "pwd"
+set passwd "pw\$d" #特殊字符\转义
 set host "host"
 set port 6379
+
+set timeout 20
 
 spawn redis-cli -h $host -p $port
 sleep 1
