@@ -1,7 +1,9 @@
 #!/usr/bin/expect
 
+
+puts "特殊字符反斜杠转义"
+set passwd "pass\$wd"
 set uname "uname"
-set passwd "pass\$wd" # 特殊字符\转义
 set host "host"
 set port 3306
 set database "dbname"
